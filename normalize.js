@@ -29,6 +29,8 @@ fs.readdirSync(config.outputPath).forEach(function (image) {
 // para cada classe, processa as imagens de treinamento dentro da pasta
 classes.forEach(function(classe){
 
+  console.log("Gerando dataset de treinamento em " + trainingSetPath);
+
   fs.readdirSync(classe.path).forEach(function (image) {
     var imagePath = path.join(classe.path, image);
 
@@ -42,6 +44,8 @@ classes.forEach(function(classe){
     });
   });
 });
+
+console.log("Gerando dataset de teste em " + testingSetPath);
 
 // percorre e processa todas as imagens de teste
 fs.readdirSync(config.testingPath + "/img").forEach(function (image) {
