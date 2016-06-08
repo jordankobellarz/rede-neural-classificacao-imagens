@@ -1,0 +1,16 @@
+{
+  "name": "rede-neural-semaforo",
+  "version": "1.0.0",
+  "description": "Rede neural para reconhecimento de imagens de semáforos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan Kobellarz",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.2.24",
+    "jsonfile": "^2.3.1",
+    "synaptic": "^1.0.4"
+  }
+}

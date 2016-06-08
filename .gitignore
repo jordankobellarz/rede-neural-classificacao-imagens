@@ -1,0 +1,4 @@
+output/
+training/
+testing/
+node_modules/
