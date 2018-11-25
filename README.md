@@ -1,4 +1,4 @@
-# rede-neural-classificacao-imagens
+# Perceptron para classificação de imagens
 Rede neural (perceptron) para reconhecimento e classificação de imagens.
 
 ## Antes de tudo
